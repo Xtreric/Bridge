@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Cobweb.xcodeproj">
+      location = "self:/Users/erichuang/Desktop/Stage/Stage.xcodeproj">
    </FileRef>
 </Workspace>
