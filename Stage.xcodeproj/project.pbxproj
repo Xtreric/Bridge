@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31648C281D2100E500B03BC8 /* resetPasswordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31648C271D2100E500B03BC8 /* resetPasswordsVC.swift */; };
 		319BC5561D1C0F2A00A3C8C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC5551D1C0F2A00A3C8C5 /* AppDelegate.swift */; };
 		319BC55B1D1C0F2A00A3C8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319BC5591D1C0F2A00A3C8C5 /* Main.storyboard */; };
 		319BC55D1D1C0F2A00A3C8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319BC55C1D1C0F2A00A3C8C5 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31648C271D2100E500B03BC8 /* resetPasswordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resetPasswordsVC.swift; sourceTree = "<group>"; };
 		319BC5521D1C0F2A00A3C8C5 /* Stage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319BC5551D1C0F2A00A3C8C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319BC55A1D1C0F2A00A3C8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				319BC5611D1C0F2A00A3C8C5 /* Info.plist */,
 				319BC56D1D1C12CC00A3C8C5 /* signInVC.swift */,
 				31BE16E41D1D472600E53CBC /* homeVC.swift */,
+				31648C271D2100E500B03BC8 /* resetPasswordsVC.swift */,
 				31BE16E61D1D4BE500E53CBC /* webimModels.swift */,
 				31BE16E81D1D6ADA00E53CBC /* globalCode.swift */,
 			);
@@ -111,6 +114,7 @@
 				TargetAttributes = {
 					319BC5511D1C0F2A00A3C8C5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X88G79ZAP5;
 					};
 				};
 			};
@@ -155,6 +159,7 @@
 				31BE16E91D1D6ADA00E53CBC /* globalCode.swift in Sources */,
 				31BE16E71D1D4BE500E53CBC /* webimModels.swift in Sources */,
 				319BC56E1D1C12CC00A3C8C5 /* signInVC.swift in Sources */,
+				31648C281D2100E500B03BC8 /* resetPasswordsVC.swift in Sources */,
 				31BE16E51D1D472600E53CBC /* homeVC.swift in Sources */,
 				319BC5561D1C0F2A00A3C8C5 /* AppDelegate.swift in Sources */,
 			);
@@ -271,10 +276,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Stage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.Stage;
 				PRODUCT_NAME = Stage;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -282,10 +291,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Stage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.Stage;
 				PRODUCT_NAME = Stage;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

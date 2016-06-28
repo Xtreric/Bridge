@@ -1,9 +1,9 @@
 //
 //  MarkTestFile.swift
-//  Cobweb
+//  Stage
 //
-//  Created by Eric Huang on 2016/6/24.
-//  Copyright © 2016年 Eric Huang. All rights reserved.
+//  Created by WeBIM RD on 2016/6/24.
+//  Copyright © 2016 WeBIM Services. All rights reserved.
 //
 
 import Foundation
@@ -22,8 +22,7 @@ class UserData {
 //    func copy() -> AnyObject! {
 //        if let asCopying = ((self as AnyObject) as? NSCopying) {
 //            return asCopying.copyWithZone(nil)
-//        }
-//        else {
+//        } else {
 //            assert(false, "This class doesn't implement NSCopying")
 //            return nil
 //        }

@@ -1,9 +1,9 @@
 //
 //  signInVC.swift
-//  Cobweb
+//  Stage
 //
-//  Created by Eric Huang on 2016/6/23.
-//  Copyright © 2016年 Eric Huang. All rights reserved.
+//  Created by WeBIM RD on 2016/6/23.
+//  Copyright © 2016 WeBIM Services. All rights reserved.
 //
 
 import UIKit
@@ -13,11 +13,21 @@ class signInVC: UIViewController {
     @IBOutlet weak var usernameTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
     @IBOutlet weak var loginBtn: UIButton!
+    @IBOutlet weak var forgetPasswordBtn: UIButton!
 
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    
+    
+    @IBAction func forgetPasswordBtn_Click(sender: AnyObject) {
+        print("forget password button clicked")
+    }
+    
+    
+    
     
     @IBAction func loginBtn_Click(sender: AnyObject) {
         // hide keyboard

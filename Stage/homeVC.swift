@@ -1,9 +1,9 @@
 //
 //  homeVC.swift
-//  Cobweb
+//  Stage
 //
-//  Created by Eric Huang on 2016/6/24.
-//  Copyright © 2016年 Eric Huang. All rights reserved.
+//  Created by WeBIM RD on 2016/6/24.
+//  Copyright © 2016 WeBIM Services. All rights reserved.
 //
 
 import UIKit
@@ -17,6 +17,14 @@ class homeVC: UIViewController {
     @IBOutlet weak var emailLbl: UILabel!
     @IBOutlet weak var companyIDLbl: UILabel!
     
+    @IBOutlet weak var logoutBtn: UIButton!
+
+    @IBAction func logoutBtn_Click(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // showUserData founction (user = curUserData)
@@ -27,14 +35,18 @@ class homeVC: UIViewController {
     func showUserData (user: UserData) {
         // 非同步作業
         dispatch_async(dispatch_get_main_queue()) {
+            
             self.useridLbl.text = String(user.UserID)
             self.nameLbl.text = user.Name
             self.unitLbl.text = user.Unit
             self.titleLbl.text = user.Title
             self.emailLbl.text = user.Email
-            self.companyIDLbl.text = String(user.CompanyID)
+            //self.companyIDLbl.text = String(user.CompanyID)
+            if user.CompanyID! == 3 {
+                self.companyIDLbl.text = "衛武資訊"
+            }
         }
     }
-   
+
     
 }

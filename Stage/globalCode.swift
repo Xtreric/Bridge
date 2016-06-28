@@ -1,9 +1,9 @@
 //
 //  globalCode.swift
-//  Cobweb
+//  Stage
 //
-//  Created by Eric Huang on 2016/6/24.
-//  Copyright © 2016年 Eric Huang. All rights reserved.
+//  Created by WeBIM RD on 2016/6/24.
+//  Copyright © 2016 WeBIM Services. All rights reserved.
 //
 
 import Foundation
@@ -26,3 +26,42 @@ struct defaultsKeys {
 }
 // 全域變數
 var curUserData = UserData()
+
+
+
+
+
+
+
+
+extension String {
+    
+    //To check text field or String is blank or not
+    var isBlank: Bool {
+        get {
+            let trimmed = stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet())
+            return trimmed.isEmpty
+        }
+    }
+    
+    // validate Email
+    var isEmail: Bool {
+        do {
+            let regex = try NSRegularExpression(pattern: "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$", options: .CaseInsensitive)
+            return regex.firstMatchInString(self, options: NSMatchingOptions(rawValue: 0), range: NSMakeRange(0, self.characters.count)) != nil
+        } catch {
+            return false
+        }
+    }
+    
+    /*
+    // validate PhoneNumber
+    var isPhoneNumber: Bool {
+        let charcter  = NSCharacterSet(charactersInString: "+0123456789").invertedSet
+        var filtered:NSString!
+        let inputString:NSArray = self.componentsSeparatedByCharactersInSet(charcter)
+        filtered = inputString.componentsJoinedByString("")
+        return  self == filtered
+    }
+    */
+}

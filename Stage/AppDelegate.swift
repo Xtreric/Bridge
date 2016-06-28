@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Cobweb
+//  Stage
 //
-//  Created by Eric Huang on 2016/6/23.
+//  Created by WeBIM RD on 2016/6/23.
 //  Copyright © 2016年 Eric Huang. All rights reserved.
 //
 
