@@ -8,16 +8,34 @@
 
 import UIKit
 
-class signInVC: UIViewController {
+class signInVC: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var usernameTxt: UITextField!
     @IBOutlet weak var passwordTxt: UITextField!
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var forgetPasswordBtn: UIButton!
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    
+
+    
+    private var currentTextField: UITextField?
+    private var isKeyboardShown = false
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        shouldAutorotate()
+        supportedInterfaceOrientations()
+        
+        // Press “Return” on the keyboard, then hide keyboard
+        textFieldInitial()
+        
+        // Hide keyboard when tap anywhere
+        self.hideKeyboardWhenTappedAround()
+        
     }
     
     
@@ -25,10 +43,7 @@ class signInVC: UIViewController {
     @IBAction func forgetPasswordBtn_Click(sender: AnyObject) {
         print("forget password button clicked")
     }
-    
-    
-    
-    
+  
     @IBAction func loginBtn_Click(sender: AnyObject) {
         // hide keyboard
         self.view.endEditing(true)
@@ -144,16 +159,51 @@ class signInVC: UIViewController {
 
     
     
+    // unable AUTO-ROTATE
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+    // only support PORTRAIT monitor
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
+    }
+    
+    
+    
+    // function of press “Return” then hide keyboard
+    func textFieldInitial() {
+        // UITextField初始化
+        let dyTextFieldUsername: UITextField = usernameTxt
+        let dyTextFieldPassword: UITextField = passwordTxt
+        // Delegate
+        dyTextFieldUsername.delegate = self
+        dyTextFieldPassword.delegate = self
+        // 框線樣式
+        //dyTextField.borderStyle = UITextBorderStyle.RoundedRect
+        // 將TextField加入View
+        self.view.addSubview(dyTextFieldUsername)
+        self.view.addSubview(dyTextFieldPassword)
+    }
+    // press "RETURN"
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return false
+    }
+    
+    // TextField clicked, move up UI
+    func textFieldDidBeginEditing(textField: UITextField) {
+        scrollView.setContentOffset(CGPointMake(0, 250), animated: true)
+    }
+    // TextField clicked, move down UI
+    func textFieldDidEndEditing(textField: UITextField) {
+        scrollView.setContentOffset(CGPointMake(0, 0), animated: true)
+    }
     
     
     
     
-    
-    
-    
-    
-    
-    
+
+
 
 
 

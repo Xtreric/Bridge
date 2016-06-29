@@ -8,12 +8,31 @@
 
 import UIKit
 
-class resetPasswordsVC: UIViewController {
+class resetPasswordsVC: UIViewController, UITextFieldDelegate {
 
     
     @IBOutlet weak var emailTxt: UITextField!
     @IBOutlet weak var resetBtn: UIButton!
     @IBOutlet weak var cancelBtn: UIButton!
+    
+    @IBOutlet weak var scrollView: UIScrollView!
+
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        shouldAutorotate()
+        supportedInterfaceOrientations()
+        
+        // Press “Return” on the keyboard, then hide keyboard
+        textFieldInitial()
+        
+        // Hide keyboard when tap anywhere
+        self.hideKeyboardWhenTappedAround()
+        
+    }
+    
+    
     
     // RESET button
     @IBAction func resetBtn_Click(sender: AnyObject) {
@@ -68,12 +87,37 @@ class resetPasswordsVC: UIViewController {
     
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        shouldAutorotate()
-        supportedInterfaceOrientations()
-        
+    
+    
+
+    // function of press “Return” then hide keyboard
+    func textFieldInitial() {
+        // UITextField初始化
+        let dyTextField: UITextField = emailTxt
+        // Delegate
+        dyTextField.delegate = self
+        // 框線樣式
+        //dyTextField.borderStyle = UITextBorderStyle.RoundedRect
+        // 將TextField加入View
+        self.view.addSubview(dyTextField)
     }
+    // press "RETURN"
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return false
+    }
+
+    // TextField clicked, move up UI
+    func textFieldDidBeginEditing(textField: UITextField) {
+        scrollView.setContentOffset(CGPointMake(0, 250), animated: true)
+    }
+    // TextField clicked, move down UI
+    func textFieldDidEndEditing(textField: UITextField) {
+        scrollView.setContentOffset(CGPointMake(0, 0), animated: true)
+    }
+    
+
 
     
 }
+

@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 // 擴充方法
 extension String {
@@ -26,10 +27,6 @@ struct defaultsKeys {
 }
 // 全域變數
 var curUserData = UserData()
-
-
-
-
 
 
 
@@ -64,4 +61,15 @@ extension String {
         return  self == filtered
     }
     */
+}
+
+extension UIViewController {
+    func hideKeyboardWhenTappedAround() {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+    }
+    
+    func dismissKeyboard() {
+        view.endEditing(true)
+    }
 }
