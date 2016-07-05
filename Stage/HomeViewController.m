@@ -10,7 +10,7 @@
 #import "ViewUtils.h"
 #import "ImageViewController.h"
 #import "VideoViewController.h"
-#import "SimpleCameraDemo-Swift.h"      
+#import "Stage-Swift.h"
 #warning - replace SimpleCameraDemo with your ProjectName
 
 @interface HomeViewController ()

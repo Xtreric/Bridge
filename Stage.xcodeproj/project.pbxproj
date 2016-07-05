@@ -19,6 +19,8 @@
 		31692DD61D2B85EA00676569 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DD31D2B85EA00676569 /* VideoViewController.m */; };
 		31692DDC1D2B861C00676569 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DD91D2B861C00676569 /* LLSimpleCamera.m */; };
 		31692DDD1D2B861C00676569 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DDB1D2B861C00676569 /* UIImage+FixOrientation.m */; };
+		31692E121D2B91C200676569 /* StageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31692E111D2B91C200676569 /* StageTests.swift */; };
+		31692E1A1D2B962A00676569 /* PreviewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31692E191D2B962A00676569 /* PreviewImageViewController.swift */; };
 		317570461D2644520034939A /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317570451D2644520034939A /* mainPage.swift */; };
 		317570481D2645180034939A /* secondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317570471D2645180034939A /* secondPage.swift */; };
 		3175704A1D2645700034939A /* thirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317570491D2645700034939A /* thirdPage.swift */; };
@@ -36,6 +38,16 @@
 		31BE16E91D1D6ADA00E53CBC /* globalCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BE16E81D1D6ADA00E53CBC /* globalCode.swift */; };
 		31C670CA1D2A877A00A8E8F6 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C670C91D2A877A00A8E8F6 /* FeedVC.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31692E141D2B91C200676569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 319BC54A1D1C0F2A00A3C8C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 319BC5511D1C0F2A00A3C8C5;
+			remoteInfo = Stage;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3108A7971D2A6DAE003AFAB8 /* mainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
@@ -61,6 +73,10 @@
 		31692DDA1D2B861C00676569 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
 		31692DDB1D2B861C00676569 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
 		31692DDF1D2B863900676569 /* SimpleCameraDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCameraDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		31692E0F1D2B91C200676569 /* StageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31692E111D2B91C200676569 /* StageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageTests.swift; sourceTree = "<group>"; };
+		31692E131D2B91C200676569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31692E191D2B962A00676569 /* PreviewImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewImageViewController.swift; sourceTree = "<group>"; };
 		317570451D2644520034939A /* mainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
 		317570471D2645180034939A /* secondPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondPage.swift; sourceTree = "<group>"; };
 		317570491D2645700034939A /* thirdPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdPage.swift; sourceTree = "<group>"; };
@@ -82,6 +98,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		31692E0C1D2B91C200676569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		319BC54F1D1C0F2A00A3C8C5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -139,6 +162,15 @@
 			name = LLSimpleCamera;
 			sourceTree = "<group>";
 		};
+		31692E101D2B91C200676569 /* StageTests */ = {
+			isa = PBXGroup;
+			children = (
+				31692E111D2B91C200676569 /* StageTests.swift */,
+				31692E131D2B91C200676569 /* Info.plist */,
+			);
+			path = StageTests;
+			sourceTree = "<group>";
+		};
 		3175704B1D2663780034939A /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				319BC5541D1C0F2A00A3C8C5 /* Stage */,
+				31692E101D2B91C200676569 /* StageTests */,
 				319BC5531D1C0F2A00A3C8C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -172,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				319BC5521D1C0F2A00A3C8C5 /* Stage.app */,
+				31692E0F1D2B91C200676569 /* StageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,6 +223,7 @@
 				319BC55C1D1C0F2A00A3C8C5 /* Assets.xcassets */,
 				319BC55E1D1C0F2A00A3C8C5 /* LaunchScreen.storyboard */,
 				319BC5611D1C0F2A00A3C8C5 /* Info.plist */,
+				31692E191D2B962A00676569 /* PreviewImageViewController.swift */,
 				319BC56D1D1C12CC00A3C8C5 /* signInVC.swift */,
 				31BE16E41D1D472600E53CBC /* homeVC.swift */,
 				31648C271D2100E500B03BC8 /* resetPasswordsVC.swift */,
@@ -222,6 +257,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		31692E0E1D2B91C200676569 /* StageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31692E161D2B91C200676569 /* Build configuration list for PBXNativeTarget "StageTests" */;
+			buildPhases = (
+				31692E0B1D2B91C200676569 /* Sources */,
+				31692E0C1D2B91C200676569 /* Frameworks */,
+				31692E0D1D2B91C200676569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31692E151D2B91C200676569 /* PBXTargetDependency */,
+			);
+			name = StageTests;
+			productName = StageTests;
+			productReference = 31692E0F1D2B91C200676569 /* StageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		319BC5511D1C0F2A00A3C8C5 /* Stage */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 319BC5641D1C0F2A00A3C8C5 /* Build configuration list for PBXNativeTarget "Stage" */;
@@ -249,6 +302,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Eric Huang";
 				TargetAttributes = {
+					31692E0E1D2B91C200676569 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 319BC5511D1C0F2A00A3C8C5;
+					};
 					319BC5511D1C0F2A00A3C8C5 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = X88G79ZAP5;
@@ -269,11 +326,19 @@
 			projectRoot = "";
 			targets = (
 				319BC5511D1C0F2A00A3C8C5 /* Stage */,
+				31692E0E1D2B91C200676569 /* StageTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		31692E0D1D2B91C200676569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		319BC5501D1C0F2A00A3C8C5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,6 +354,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		31692E0B1D2B91C200676569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31692E121D2B91C200676569 /* StageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		319BC54E1D1C0F2A00A3C8C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,6 +380,7 @@
 				31692DDD1D2B861C00676569 /* UIImage+FixOrientation.m in Sources */,
 				31692DD51D2B85EA00676569 /* ImageViewController.m in Sources */,
 				31692DD61D2B85EA00676569 /* VideoViewController.m in Sources */,
+				31692E1A1D2B962A00676569 /* PreviewImageViewController.swift in Sources */,
 				31692DCA1D2B85C100676569 /* UIImage+Crop.m in Sources */,
 				317570461D2644520034939A /* mainPage.swift in Sources */,
 				31AD6E5F1D2A3F6C00B80DAA /* CameraVC.swift in Sources */,
@@ -320,6 +394,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31692E151D2B91C200676569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 319BC5511D1C0F2A00A3C8C5 /* Stage */;
+			targetProxy = 31692E141D2B91C200676569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		319BC5591D1C0F2A00A3C8C5 /* Main.storyboard */ = {
@@ -341,6 +423,30 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		31692E171D2B91C200676569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.StageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stage.app/Stage";
+			};
+			name = Debug;
+		};
+		31692E181D2B91C200676569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.StageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stage.app/Stage";
+			};
+			name = Release;
+		};
 		319BC5621D1C0F2A00A3C8C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -464,6 +570,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		31692E161D2B91C200676569 /* Build configuration list for PBXNativeTarget "StageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31692E171D2B91C200676569 /* Debug */,
+				31692E181D2B91C200676569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		319BC54D1D1C0F2A00A3C8C5 /* Build configuration list for PBXProject "Stage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
