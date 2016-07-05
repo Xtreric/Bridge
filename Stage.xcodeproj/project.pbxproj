@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3108A7981D2A6DAE003AFAB8 /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108A7971D2A6DAE003AFAB8 /* mainVC.swift */; };
+		311E48AF1D25228900E353F6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E48AE1D25228900E353F6 /* SWRevealViewController.m */; };
+		311E48B71D253B9700E353F6 /* backTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311E48B61D253B9700E353F6 /* backTableVC.swift */; };
 		31648C281D2100E500B03BC8 /* resetPasswordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31648C271D2100E500B03BC8 /* resetPasswordsVC.swift */; };
+		31692DCA1D2B85C100676569 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DC51D2B85C100676569 /* UIImage+Crop.m */; };
+		31692DCB1D2B85C100676569 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DC71D2B85C100676569 /* UIImage+Resize.m */; };
+		31692DCC1D2B85C100676569 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DC91D2B85C100676569 /* ViewUtils.m */; };
+		31692DD41D2B85EA00676569 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DCF1D2B85EA00676569 /* HomeViewController.m */; };
+		31692DD51D2B85EA00676569 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DD11D2B85EA00676569 /* ImageViewController.m */; };
+		31692DD61D2B85EA00676569 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DD31D2B85EA00676569 /* VideoViewController.m */; };
+		31692DDC1D2B861C00676569 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DD91D2B861C00676569 /* LLSimpleCamera.m */; };
+		31692DDD1D2B861C00676569 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DDB1D2B861C00676569 /* UIImage+FixOrientation.m */; };
+		317570461D2644520034939A /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317570451D2644520034939A /* mainPage.swift */; };
+		317570481D2645180034939A /* secondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317570471D2645180034939A /* secondPage.swift */; };
+		3175704A1D2645700034939A /* thirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317570491D2645700034939A /* thirdPage.swift */; };
 		319BC5561D1C0F2A00A3C8C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC5551D1C0F2A00A3C8C5 /* AppDelegate.swift */; };
 		319BC55B1D1C0F2A00A3C8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319BC5591D1C0F2A00A3C8C5 /* Main.storyboard */; };
 		319BC55D1D1C0F2A00A3C8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319BC55C1D1C0F2A00A3C8C5 /* Assets.xcassets */; };
@@ -15,13 +29,41 @@
 		319BC5681D1C11AA00A3C8C5 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 319BC5671D1C11AA00A3C8C5 /* background.png */; };
 		319BC56A1D1C11C500A3C8C5 /* EmptyProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 319BC5691D1C11C500A3C8C5 /* EmptyProfile.png */; };
 		319BC56E1D1C12CC00A3C8C5 /* signInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319BC56D1D1C12CC00A3C8C5 /* signInVC.swift */; };
+		31AD6E5F1D2A3F6C00B80DAA /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD6E5E1D2A3F6C00B80DAA /* CameraVC.swift */; };
+		31AD6E651D2A4D5400B80DAA /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AD6E641D2A4D5400B80DAA /* NotificationVC.swift */; };
 		31BE16E51D1D472600E53CBC /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BE16E41D1D472600E53CBC /* homeVC.swift */; };
 		31BE16E71D1D4BE500E53CBC /* webimModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BE16E61D1D4BE500E53CBC /* webimModels.swift */; };
 		31BE16E91D1D6ADA00E53CBC /* globalCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BE16E81D1D6ADA00E53CBC /* globalCode.swift */; };
+		31C670CA1D2A877A00A8E8F6 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C670C91D2A877A00A8E8F6 /* FeedVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3108A7971D2A6DAE003AFAB8 /* mainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		311E48AC1D25228800E353F6 /* Stage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stage-Bridging-Header.h"; sourceTree = "<group>"; };
+		311E48AD1D25228900E353F6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		311E48AE1D25228900E353F6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		311E48B61D253B9700E353F6 /* backTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = backTableVC.swift; path = ../backTableVC.swift; sourceTree = "<group>"; };
 		31648C271D2100E500B03BC8 /* resetPasswordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resetPasswordsVC.swift; sourceTree = "<group>"; };
+		31692DC41D2B85C100676569 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
+		31692DC51D2B85C100676569 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
+		31692DC61D2B85C100676569 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		31692DC71D2B85C100676569 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		31692DC81D2B85C100676569 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		31692DC91D2B85C100676569 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		31692DCE1D2B85EA00676569 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		31692DCF1D2B85EA00676569 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		31692DD01D2B85EA00676569 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		31692DD11D2B85EA00676569 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		31692DD21D2B85EA00676569 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		31692DD31D2B85EA00676569 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		31692DD81D2B861C00676569 /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
+		31692DD91D2B861C00676569 /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
+		31692DDA1D2B861C00676569 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		31692DDB1D2B861C00676569 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		31692DDF1D2B863900676569 /* SimpleCameraDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCameraDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		317570451D2644520034939A /* mainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
+		317570471D2645180034939A /* secondPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondPage.swift; sourceTree = "<group>"; };
+		317570491D2645700034939A /* thirdPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdPage.swift; sourceTree = "<group>"; };
 		319BC5521D1C0F2A00A3C8C5 /* Stage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319BC5551D1C0F2A00A3C8C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319BC55A1D1C0F2A00A3C8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -31,9 +73,12 @@
 		319BC5671D1C11AA00A3C8C5 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		319BC5691D1C11C500A3C8C5 /* EmptyProfile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmptyProfile.png; sourceTree = "<group>"; };
 		319BC56D1D1C12CC00A3C8C5 /* signInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signInVC.swift; sourceTree = "<group>"; };
+		31AD6E5E1D2A3F6C00B80DAA /* CameraVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		31AD6E641D2A4D5400B80DAA /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		31BE16E41D1D472600E53CBC /* homeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
 		31BE16E61D1D4BE500E53CBC /* webimModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webimModels.swift; sourceTree = "<group>"; };
 		31BE16E81D1D6ADA00E53CBC /* globalCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = globalCode.swift; sourceTree = "<group>"; };
+		31C670C91D2A877A00A8E8F6 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +92,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		311E48AB1D25215E00E353F6 /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				31692DDF1D2B863900676569 /* SimpleCameraDemo-Bridging-Header.h */,
+				31AD6E391D2A2CEC00B80DAA /* Images */,
+				3175704B1D2663780034939A /* SWRevealViewController */,
+			);
+			name = "Supporting File";
+			sourceTree = "<group>";
+		};
+		31692DCD1D2B85CE00676569 /* CameraUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				31692DC41D2B85C100676569 /* UIImage+Crop.h */,
+				31692DC51D2B85C100676569 /* UIImage+Crop.m */,
+				31692DC61D2B85C100676569 /* UIImage+Resize.h */,
+				31692DC71D2B85C100676569 /* UIImage+Resize.m */,
+				31692DC81D2B85C100676569 /* ViewUtils.h */,
+				31692DC91D2B85C100676569 /* ViewUtils.m */,
+			);
+			name = CameraUtilities;
+			sourceTree = "<group>";
+		};
+		31692DD71D2B85F700676569 /* CameraControllers */ = {
+			isa = PBXGroup;
+			children = (
+				31692DCE1D2B85EA00676569 /* HomeViewController.h */,
+				31692DCF1D2B85EA00676569 /* HomeViewController.m */,
+				31692DD01D2B85EA00676569 /* ImageViewController.h */,
+				31692DD11D2B85EA00676569 /* ImageViewController.m */,
+				31692DD21D2B85EA00676569 /* VideoViewController.h */,
+				31692DD31D2B85EA00676569 /* VideoViewController.m */,
+			);
+			name = CameraControllers;
+			sourceTree = "<group>";
+		};
+		31692DDE1D2B862400676569 /* LLSimpleCamera */ = {
+			isa = PBXGroup;
+			children = (
+				31692DD81D2B861C00676569 /* LLSimpleCamera.h */,
+				31692DD91D2B861C00676569 /* LLSimpleCamera.m */,
+				31692DDA1D2B861C00676569 /* UIImage+FixOrientation.h */,
+				31692DDB1D2B861C00676569 /* UIImage+FixOrientation.m */,
+			);
+			name = LLSimpleCamera;
+			sourceTree = "<group>";
+		};
+		3175704B1D2663780034939A /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				311E48AD1D25228900E353F6 /* SWRevealViewController.h */,
+				311E48AE1D25228900E353F6 /* SWRevealViewController.m */,
+				311E48AC1D25228800E353F6 /* Stage-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		3175704C1D2671780034939A /* RevealViewPages */ = {
+			isa = PBXGroup;
+			children = (
+				311E48B61D253B9700E353F6 /* backTableVC.swift */,
+				317570451D2644520034939A /* mainPage.swift */,
+				317570471D2645180034939A /* secondPage.swift */,
+				317570491D2645700034939A /* thirdPage.swift */,
+			);
+			name = RevealViewPages;
+			sourceTree = "<group>";
+		};
 		319BC5491D1C0F2A00A3C8C5 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +179,9 @@
 		319BC5541D1C0F2A00A3C8C5 /* Stage */ = {
 			isa = PBXGroup;
 			children = (
+				31692DCD1D2B85CE00676569 /* CameraUtilities */,
+				31692DD71D2B85F700676569 /* CameraControllers */,
+				31692DDE1D2B862400676569 /* LLSimpleCamera */,
 				319BC5691D1C11C500A3C8C5 /* EmptyProfile.png */,
 				319BC5671D1C11AA00A3C8C5 /* background.png */,
 				319BC5551D1C0F2A00A3C8C5 /* AppDelegate.swift */,
@@ -76,10 +192,31 @@
 				319BC56D1D1C12CC00A3C8C5 /* signInVC.swift */,
 				31BE16E41D1D472600E53CBC /* homeVC.swift */,
 				31648C271D2100E500B03BC8 /* resetPasswordsVC.swift */,
+				3108A7971D2A6DAE003AFAB8 /* mainVC.swift */,
 				31BE16E61D1D4BE500E53CBC /* webimModels.swift */,
 				31BE16E81D1D6ADA00E53CBC /* globalCode.swift */,
+				31AD6E661D2A522400B80DAA /* TabBarPages */,
+				3175704C1D2671780034939A /* RevealViewPages */,
+				311E48AB1D25215E00E353F6 /* Supporting File */,
 			);
 			path = Stage;
+			sourceTree = "<group>";
+		};
+		31AD6E391D2A2CEC00B80DAA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		31AD6E661D2A522400B80DAA /* TabBarPages */ = {
+			isa = PBXGroup;
+			children = (
+				31AD6E5E1D2A3F6C00B80DAA /* CameraVC.swift */,
+				31AD6E641D2A4D5400B80DAA /* NotificationVC.swift */,
+				31C670C91D2A877A00A8E8F6 /* FeedVC.swift */,
+			);
+			name = TabBarPages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,12 +293,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31692DCC1D2B85C100676569 /* ViewUtils.m in Sources */,
+				311E48B71D253B9700E353F6 /* backTableVC.swift in Sources */,
+				311E48AF1D25228900E353F6 /* SWRevealViewController.m in Sources */,
 				31BE16E91D1D6ADA00E53CBC /* globalCode.swift in Sources */,
 				31BE16E71D1D4BE500E53CBC /* webimModels.swift in Sources */,
 				319BC56E1D1C12CC00A3C8C5 /* signInVC.swift in Sources */,
 				31648C281D2100E500B03BC8 /* resetPasswordsVC.swift in Sources */,
+				3175704A1D2645700034939A /* thirdPage.swift in Sources */,
+				3108A7981D2A6DAE003AFAB8 /* mainVC.swift in Sources */,
+				317570481D2645180034939A /* secondPage.swift in Sources */,
+				31692DDC1D2B861C00676569 /* LLSimpleCamera.m in Sources */,
+				31692DDD1D2B861C00676569 /* UIImage+FixOrientation.m in Sources */,
+				31692DD51D2B85EA00676569 /* ImageViewController.m in Sources */,
+				31692DD61D2B85EA00676569 /* VideoViewController.m in Sources */,
+				31692DCA1D2B85C100676569 /* UIImage+Crop.m in Sources */,
+				317570461D2644520034939A /* mainPage.swift in Sources */,
+				31AD6E5F1D2A3F6C00B80DAA /* CameraVC.swift in Sources */,
 				31BE16E51D1D472600E53CBC /* homeVC.swift in Sources */,
+				31C670CA1D2A877A00A8E8F6 /* FeedVC.swift in Sources */,
 				319BC5561D1C0F2A00A3C8C5 /* AppDelegate.swift in Sources */,
+				31692DCB1D2B85C100676569 /* UIImage+Resize.m in Sources */,
+				31692DD41D2B85EA00676569 /* HomeViewController.m in Sources */,
+				31AD6E651D2A4D5400B80DAA /* NotificationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Stage/Info.plist;
@@ -283,6 +438,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.Stage;
 				PRODUCT_NAME = Stage;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stage/Stage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -291,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Stage/Info.plist;
@@ -298,6 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.Stage;
 				PRODUCT_NAME = Stage;
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Stage/Stage-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

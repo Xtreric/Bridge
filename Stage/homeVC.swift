@@ -20,6 +20,7 @@ class homeVC: UIViewController {
     @IBOutlet weak var logoutBtn: UIButton!
 
     @IBAction func logoutBtn_Click(sender: AnyObject) {
+        
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
@@ -41,10 +42,8 @@ class homeVC: UIViewController {
             self.unitLbl.text = user.Unit
             self.titleLbl.text = user.Title
             self.emailLbl.text = user.Email
-            //self.companyIDLbl.text = String(user.CompanyID)
-            if user.CompanyID! == 3 {
-                self.companyIDLbl.text = "衛武資訊"
-            }
+            self.companyIDLbl.text = String(user.CompanyID)
+            
         }
     }
 

@@ -18,13 +18,6 @@ class signInVC: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
     
 
-    
-    private var currentTextField: UITextField?
-    private var isKeyboardShown = false
-    
-    
-    
-
     override func viewDidLoad() {
         super.viewDidLoad()
         shouldAutorotate()
@@ -37,8 +30,7 @@ class signInVC: UIViewController, UITextFieldDelegate {
         self.hideKeyboardWhenTappedAround()
         
     }
-    
-    
+
     
     @IBAction func forgetPasswordBtn_Click(sender: AnyObject) {
         print("forget password button clicked")

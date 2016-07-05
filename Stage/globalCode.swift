@@ -32,7 +32,6 @@ var curUserData = UserData()
 
 
 extension String {
-    
     //To check text field or String is blank or not
     var isBlank: Bool {
         get {
@@ -65,7 +64,7 @@ extension String {
 
 extension UIViewController {
     func hideKeyboardWhenTappedAround() {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
     }
     
