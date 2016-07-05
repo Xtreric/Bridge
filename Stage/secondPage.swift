@@ -2,8 +2,8 @@
 //  secondPage.swift
 //  Stage
 //
-//  Created by Eric Huang on 2016/7/1.
-//  Copyright © 2016年 Eric Huang. All rights reserved.
+//  Created by WeBIM RD on 2016/7/1.
+//  Copyright © 2016 WeBIM Services. All rights reserved.
 //
 
 import Foundation
