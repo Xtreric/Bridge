@@ -1,6 +1,6 @@
 //
 //  NotificationVC.swift
-//  Stage
+//  Bridge
 //
 //  Created by WeBIM RD on 2016/7/4.
 //  Copyright © 2016 WeBIM Services. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  globalCode.swift
-//  Stage
+//  Bridge
 //
 //  Created by WeBIM RD on 2016/6/24.
 //  Copyright © 2016 WeBIM Services. All rights reserved.

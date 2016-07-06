@@ -50,7 +50,7 @@
 
 /* Begin PBXFileReference section */
 		3108A7971D2A6DAE003AFAB8 /* mainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
-		311E48AC1D25228800E353F6 /* Stage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stage-Bridging-Header.h"; sourceTree = "<group>"; };
+		311E48AC1D25228800E353F6 /* Stage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Stage-Bridging-Header.h"; path = "../Stage/Stage-Bridging-Header.h"; sourceTree = "<group>"; };
 		311E48AD1D25228900E353F6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		311E48AE1D25228900E353F6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		311E48B61D253B9700E353F6 /* backTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = backTableVC.swift; path = ../backTableVC.swift; sourceTree = "<group>"; };
@@ -72,14 +72,14 @@
 		31692DDA1D2B861C00676569 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
 		31692DDB1D2B861C00676569 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
 		31692DDF1D2B863900676569 /* SimpleCameraDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCameraDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		31692E0F1D2B91C200676569 /* StageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31692E0F1D2B91C200676569 /* Bridge.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bridge.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31692E111D2B91C200676569 /* StageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageTests.swift; sourceTree = "<group>"; };
 		31692E131D2B91C200676569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31692E191D2B962A00676569 /* PreviewImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewImageViewController.swift; sourceTree = "<group>"; };
 		317570451D2644520034939A /* mainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
 		317570471D2645180034939A /* secondPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondPage.swift; sourceTree = "<group>"; };
 		317570491D2645700034939A /* thirdPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdPage.swift; sourceTree = "<group>"; };
-		319BC5521D1C0F2A00A3C8C5 /* Stage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		319BC5521D1C0F2A00A3C8C5 /* Bridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319BC5551D1C0F2A00A3C8C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319BC55A1D1C0F2A00A3C8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		319BC55C1D1C0F2A00A3C8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				31692DDF1D2B863900676569 /* SimpleCameraDemo-Bridging-Header.h */,
+				311E48AC1D25228800E353F6 /* Stage-Bridging-Header.h */,
 				31AD6E391D2A2CEC00B80DAA /* Images */,
 				3175704B1D2663780034939A /* SWRevealViewController */,
 			);
@@ -174,7 +175,6 @@
 			children = (
 				311E48AD1D25228900E353F6 /* SWRevealViewController.h */,
 				311E48AE1D25228900E353F6 /* SWRevealViewController.m */,
-				311E48AC1D25228800E353F6 /* Stage-Bridging-Header.h */,
 			);
 			name = SWRevealViewController;
 			sourceTree = "<group>";
@@ -193,7 +193,7 @@
 		319BC5491D1C0F2A00A3C8C5 = {
 			isa = PBXGroup;
 			children = (
-				319BC5541D1C0F2A00A3C8C5 /* Stage */,
+				319BC5541D1C0F2A00A3C8C5 /* Bridge */,
 				31692E101D2B91C200676569 /* StageTests */,
 				319BC5531D1C0F2A00A3C8C5 /* Products */,
 			);
@@ -202,13 +202,13 @@
 		319BC5531D1C0F2A00A3C8C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				319BC5521D1C0F2A00A3C8C5 /* Stage.app */,
-				31692E0F1D2B91C200676569 /* StageTests.xctest */,
+				319BC5521D1C0F2A00A3C8C5 /* Bridge.app */,
+				31692E0F1D2B91C200676569 /* Bridge.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		319BC5541D1C0F2A00A3C8C5 /* Stage */ = {
+		319BC5541D1C0F2A00A3C8C5 /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
 				31692DCD1D2B85CE00676569 /* CameraUtilities */,
@@ -232,7 +232,7 @@
 				3175704C1D2671780034939A /* RevealViewPages */,
 				311E48AB1D25215E00E353F6 /* Supporting File */,
 			);
-			path = Stage;
+			path = Bridge;
 			sourceTree = "<group>";
 		};
 		31AD6E391D2A2CEC00B80DAA /* Images */ = {
@@ -254,9 +254,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31692E0E1D2B91C200676569 /* StageTests */ = {
+		31692E0E1D2B91C200676569 /* BridgeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31692E161D2B91C200676569 /* Build configuration list for PBXNativeTarget "StageTests" */;
+			buildConfigurationList = 31692E161D2B91C200676569 /* Build configuration list for PBXNativeTarget "BridgeTests" */;
 			buildPhases = (
 				31692E0B1D2B91C200676569 /* Sources */,
 				31692E0C1D2B91C200676569 /* Frameworks */,
@@ -267,14 +267,14 @@
 			dependencies = (
 				31692E151D2B91C200676569 /* PBXTargetDependency */,
 			);
-			name = StageTests;
+			name = BridgeTests;
 			productName = StageTests;
-			productReference = 31692E0F1D2B91C200676569 /* StageTests.xctest */;
+			productReference = 31692E0F1D2B91C200676569 /* Bridge.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		319BC5511D1C0F2A00A3C8C5 /* Stage */ = {
+		319BC5511D1C0F2A00A3C8C5 /* Bridge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 319BC5641D1C0F2A00A3C8C5 /* Build configuration list for PBXNativeTarget "Stage" */;
+			buildConfigurationList = 319BC5641D1C0F2A00A3C8C5 /* Build configuration list for PBXNativeTarget "Bridge" */;
 			buildPhases = (
 				319BC54E1D1C0F2A00A3C8C5 /* Sources */,
 				319BC54F1D1C0F2A00A3C8C5 /* Frameworks */,
@@ -284,9 +284,9 @@
 			);
 			dependencies = (
 			);
-			name = Stage;
+			name = Bridge;
 			productName = Cobweb;
-			productReference = 319BC5521D1C0F2A00A3C8C5 /* Stage.app */;
+			productReference = 319BC5521D1C0F2A00A3C8C5 /* Bridge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -309,7 +309,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 319BC54D1D1C0F2A00A3C8C5 /* Build configuration list for PBXProject "Stage" */;
+			buildConfigurationList = 319BC54D1D1C0F2A00A3C8C5 /* Build configuration list for PBXProject "Bridge" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -322,8 +322,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				319BC5511D1C0F2A00A3C8C5 /* Stage */,
-				31692E0E1D2B91C200676569 /* StageTests */,
+				319BC5511D1C0F2A00A3C8C5 /* Bridge */,
+				31692E0E1D2B91C200676569 /* BridgeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -394,7 +394,7 @@
 /* Begin PBXTargetDependency section */
 		31692E151D2B91C200676569 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 319BC5511D1C0F2A00A3C8C5 /* Stage */;
+			target = 319BC5511D1C0F2A00A3C8C5 /* Bridge */;
 			targetProxy = 31692E141D2B91C200676569 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -423,11 +423,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = StageTests/Info.plist;
+				INFOPLIST_FILE = Bridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.StageTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stage.app/Stage";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.Bridge;
+				PRODUCT_NAME = Bridge;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bridge.app/Bridge";
 			};
 			name = Debug;
 		};
@@ -435,11 +435,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = StageTests/Info.plist;
+				INFOPLIST_FILE = Bridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.StageTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stage.app/Stage";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.Bridge;
+				PRODUCT_NAME = Bridge;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bridge.app/Bridge";
 			};
 			name = Release;
 		};
@@ -535,10 +535,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = Stage/Info.plist;
+				INFOPLIST_FILE = Bridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.Stage;
-				PRODUCT_NAME = Stage;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.Bridge;
+				PRODUCT_NAME = Bridge;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Stage/Stage-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -553,10 +553,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				INFOPLIST_FILE = Stage/Info.plist;
+				INFOPLIST_FILE = Bridge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.Stage;
-				PRODUCT_NAME = Stage;
+				PRODUCT_BUNDLE_IDENTIFIER = tw.com.webim.Bridge;
+				PRODUCT_NAME = Bridge;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Stage/Stage-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -566,7 +566,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31692E161D2B91C200676569 /* Build configuration list for PBXNativeTarget "StageTests" */ = {
+		31692E161D2B91C200676569 /* Build configuration list for PBXNativeTarget "BridgeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31692E171D2B91C200676569 /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		319BC54D1D1C0F2A00A3C8C5 /* Build configuration list for PBXProject "Stage" */ = {
+		319BC54D1D1C0F2A00A3C8C5 /* Build configuration list for PBXProject "Bridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				319BC5621D1C0F2A00A3C8C5 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		319BC5641D1C0F2A00A3C8C5 /* Build configuration list for PBXNativeTarget "Stage" */ = {
+		319BC5641D1C0F2A00A3C8C5 /* Build configuration list for PBXNativeTarget "Bridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				319BC5651D1C0F2A00A3C8C5 /* Debug */,

@@ -1,6 +1,6 @@
 //
-//  thirdPage.swift
-//  Stage
+//  secondPage.swift
+//  Bridge
 //
 //  Created by WeBIM RD on 2016/7/1.
 //  Copyright © 2016 WeBIM Services. All rights reserved.
@@ -11,14 +11,13 @@ import UIKit
 
 
 
-class thirdPage : UIViewController {
-
+class secondPage : UIViewController {
     
+
     @IBOutlet weak var menuBtn: UIBarButtonItem!
     
-    
     override func viewDidLoad() {
-    
+        
         menuBtn.target = self.revealViewController()
         menuBtn.action = Selector("revealToggle:")
         
@@ -27,4 +26,3 @@ class thirdPage : UIViewController {
     }
     
 }
-

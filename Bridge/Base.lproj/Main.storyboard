@@ -11,7 +11,7 @@
         <!--Login-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="signInVC" customModule="Stage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="signInVC" customModule="Bridge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HjU-eO-LX3"/>
                         <viewControllerLayoutGuide type="bottom" id="ZRr-xn-r2U"/>
@@ -157,7 +157,7 @@
         <!--Forget Password-->
         <scene sceneID="z37-GW-AEo">
             <objects>
-                <viewController id="FBJ-qx-QQM" customClass="resetPasswordsVC" customModule="Stage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FBJ-qx-QQM" customClass="resetPasswordsVC" customModule="Bridge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3YW-dY-cCr"/>
                         <viewControllerLayoutGuide type="bottom" id="T7t-YF-gaq"/>
@@ -264,7 +264,7 @@
         <!--HomeVC-->
         <scene sceneID="Vpb-Tx-0A2">
             <objects>
-                <viewController id="m5I-dF-vMR" customClass="homeVC" customModule="Stage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m5I-dF-vMR" customClass="homeVC" customModule="Bridge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9kF-NE-Hgy"/>
                         <viewControllerLayoutGuide type="bottom" id="nsr-dn-SKa"/>
@@ -380,7 +380,7 @@
         <!--FeedVC-->
         <scene sceneID="rcd-sd-VJg">
             <objects>
-                <viewController id="cBl-1H-U6M" customClass="FeedVC" customModule="Stage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cBl-1H-U6M" customClass="FeedVC" customModule="Bridge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="B8X-ls-Pmb"/>
                         <viewControllerLayoutGuide type="bottom" id="QNm-T5-0xg"/>
@@ -430,7 +430,7 @@
         <!--Preview Image View Controller-->
         <scene sceneID="h4n-fC-Z5v">
             <objects>
-                <viewController id="YjP-ij-aAZ" customClass="PreviewImageViewController" customModule="Stage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="YjP-ij-aAZ" customClass="PreviewImageViewController" customModule="Bridge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="noY-Jr-MH1"/>
                         <viewControllerLayoutGuide type="bottom" id="lKZ-Pl-Hdf"/>
@@ -471,18 +471,29 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" image="cancel"/>
+                                <connections>
+                                    <action selector="cancelBtn_Click:" destination="YjP-ij-aAZ" eventType="touchUpInside" id="jqt-7O-vrh"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Z5K-nI-MNy" firstAttribute="top" secondItem="FIR-1c-xxc" secondAttribute="bottom" constant="-49" id="1nF-9O-IYi"/>
+                            <constraint firstItem="Z5K-nI-MNy" firstAttribute="top" secondItem="FIR-1c-xxc" secondAttribute="bottom" constant="-49" id="1nF-9O-IYi">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-97"/>
+                            </constraint>
                             <constraint firstItem="Z5K-nI-MNy" firstAttribute="centerX" secondItem="vul-ay-Kg7" secondAttribute="centerX" id="2qS-qi-faj"/>
                             <constraint firstItem="Z5K-nI-MNy" firstAttribute="centerY" secondItem="vul-ay-Kg7" secondAttribute="centerY" id="4q8-fS-JQ1"/>
                             <constraint firstItem="lKZ-Pl-Hdf" firstAttribute="top" secondItem="Z5K-nI-MNy" secondAttribute="bottom" id="LJv-py-Oeq"/>
-                            <constraint firstItem="FIR-1c-xxc" firstAttribute="leading" secondItem="Z5K-nI-MNy" secondAttribute="trailing" constant="-56" id="NmY-Zb-XLy"/>
+                            <constraint firstItem="FIR-1c-xxc" firstAttribute="leading" secondItem="Z5K-nI-MNy" secondAttribute="trailing" constant="-56" id="NmY-Zb-XLy">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-45"/>
+                            </constraint>
                             <constraint firstItem="Z5K-nI-MNy" firstAttribute="top" secondItem="vul-ay-Kg7" secondAttribute="topMargin" id="Wgl-BR-Ncj"/>
-                            <constraint firstItem="Z5K-nI-MNy" firstAttribute="leading" secondItem="7BS-4V-xqh" secondAttribute="trailing" constant="-52" id="XaD-ko-7Wj"/>
-                            <constraint firstItem="Z5K-nI-MNy" firstAttribute="top" secondItem="7BS-4V-xqh" secondAttribute="bottom" constant="-51" id="nsN-ox-PG9"/>
+                            <constraint firstItem="Z5K-nI-MNy" firstAttribute="leading" secondItem="7BS-4V-xqh" secondAttribute="trailing" constant="-52" id="XaD-ko-7Wj">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-41"/>
+                            </constraint>
+                            <constraint firstItem="Z5K-nI-MNy" firstAttribute="top" secondItem="7BS-4V-xqh" secondAttribute="bottom" constant="-51" id="nsN-ox-PG9">
+                                <variation key="heightClass=regular-widthClass=compact" constant="-92"/>
+                            </constraint>
                             <constraint firstAttribute="trailingMargin" secondItem="Z5K-nI-MNy" secondAttribute="trailing" id="rUc-Qr-hLC">
                                 <variation key="heightClass=regular-widthClass=compact" constant="-20"/>
                             </constraint>
@@ -529,7 +540,10 @@
                             </mask>
                         </variation>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
+                        <outlet property="cancelBtn" destination="7BS-4V-xqh" id="wWq-XH-LAk"/>
                         <outlet property="imageView" destination="Z5K-nI-MNy" id="bXO-26-2t7"/>
                     </connections>
                 </viewController>
@@ -645,7 +659,7 @@
         <!--Main Page-->
         <scene sceneID="JQO-a4-QIc">
             <objects>
-                <viewController id="NYt-co-4lC" customClass="mainPage" customModule="Stage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="NYt-co-4lC" customClass="mainPage" customModule="Bridge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kX4-Dt-HLh"/>
                         <viewControllerLayoutGuide type="bottom" id="gSP-Ek-eOk"/>
@@ -669,7 +683,7 @@
         <!--Second Page-->
         <scene sceneID="QNQ-HP-7uf">
             <objects>
-                <viewController id="hP4-97-YXI" customClass="secondPage" customModule="Stage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="hP4-97-YXI" customClass="secondPage" customModule="Bridge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5yi-JV-arj"/>
                         <viewControllerLayoutGuide type="bottom" id="763-SX-aNa"/>
@@ -693,7 +707,7 @@
         <!--Third Page-->
         <scene sceneID="hAe-LX-efy">
             <objects>
-                <viewController id="ZSR-94-qIc" customClass="thirdPage" customModule="Stage" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ZSR-94-qIc" customClass="thirdPage" customModule="Bridge" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wTK-5i-64p"/>
                         <viewControllerLayoutGuide type="bottom" id="2GG-Vx-u2C"/>

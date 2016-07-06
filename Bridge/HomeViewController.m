@@ -10,7 +10,7 @@
 #import "ViewUtils.h"
 #import "ImageViewController.h"
 #import "VideoViewController.h"
-#import "Stage-Swift.h"
+#import "Bridge-Swift.h"
 #warning - replace SimpleCameraDemo with your ProjectName
 
 @interface HomeViewController ()
@@ -136,6 +136,15 @@
     self.segmentedControl.tintColor = [UIColor whiteColor];
     [self.segmentedControl addTarget:self action:@selector(segmentedControlValueChanged:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:self.segmentedControl];
+    
+    
+    
+    // ERIC : PUT CANCEL BUTTON HERE
+    
+    
+    
+    
+    
 }
 
 - (void)segmentedControlValueChanged:(UISegmentedControl *)control {
