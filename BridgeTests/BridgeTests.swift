@@ -1,6 +1,6 @@
 //
-//  StageTests.swift
-//  StageTests
+//  Bridge.swift
+//  BridgeTests
 //
 //  Created by WeBIM RD on 2016/7/5.
 //  Copyright © 2016 WeBIM Services. All rights reserved.

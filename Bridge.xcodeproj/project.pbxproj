@@ -19,7 +19,7 @@
 		31692DD61D2B85EA00676569 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DD31D2B85EA00676569 /* VideoViewController.m */; };
 		31692DDC1D2B861C00676569 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DD91D2B861C00676569 /* LLSimpleCamera.m */; };
 		31692DDD1D2B861C00676569 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DDB1D2B861C00676569 /* UIImage+FixOrientation.m */; };
-		31692E121D2B91C200676569 /* StageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31692E111D2B91C200676569 /* StageTests.swift */; };
+		31692E121D2B91C200676569 /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31692E111D2B91C200676569 /* BridgeTests.swift */; };
 		31692E1A1D2B962A00676569 /* PreviewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31692E191D2B962A00676569 /* PreviewImageViewController.swift */; };
 		317570461D2644520034939A /* mainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317570451D2644520034939A /* mainPage.swift */; };
 		317570481D2645180034939A /* secondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317570471D2645180034939A /* secondPage.swift */; };
@@ -73,7 +73,7 @@
 		31692DDB1D2B861C00676569 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
 		31692DDF1D2B863900676569 /* SimpleCameraDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleCameraDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		31692E0F1D2B91C200676569 /* Bridge.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bridge.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31692E111D2B91C200676569 /* StageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageTests.swift; sourceTree = "<group>"; };
+		31692E111D2B91C200676569 /* BridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeTests.swift; sourceTree = "<group>"; };
 		31692E131D2B91C200676569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31692E191D2B962A00676569 /* PreviewImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewImageViewController.swift; sourceTree = "<group>"; };
 		317570451D2644520034939A /* mainPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainPage.swift; sourceTree = "<group>"; };
@@ -161,13 +161,14 @@
 			name = LLSimpleCamera;
 			sourceTree = "<group>";
 		};
-		31692E101D2B91C200676569 /* StageTests */ = {
+		31692E101D2B91C200676569 /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
-				31692E111D2B91C200676569 /* StageTests.swift */,
+				31692E111D2B91C200676569 /* BridgeTests.swift */,
 				31692E131D2B91C200676569 /* Info.plist */,
 			);
-			path = StageTests;
+			name = Bridge;
+			path = BridgeTests;
 			sourceTree = "<group>";
 		};
 		3175704B1D2663780034939A /* SWRevealViewController */ = {
@@ -194,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				319BC5541D1C0F2A00A3C8C5 /* Bridge */,
-				31692E101D2B91C200676569 /* StageTests */,
+				31692E101D2B91C200676569 /* Bridge */,
 				319BC5531D1C0F2A00A3C8C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -355,7 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31692E121D2B91C200676569 /* StageTests.swift in Sources */,
+				31692E121D2B91C200676569 /* BridgeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
