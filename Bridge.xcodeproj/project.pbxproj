@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3108A7981D2A6DAE003AFAB8 /* mainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108A7971D2A6DAE003AFAB8 /* mainVC.swift */; };
+		311CA8751D2CE0750034331E /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311CA8741D2CE0750034331E /* Drawing.swift */; };
 		311E48AF1D25228900E353F6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 311E48AE1D25228900E353F6 /* SWRevealViewController.m */; };
 		311E48B71D253B9700E353F6 /* backTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311E48B61D253B9700E353F6 /* backTableVC.swift */; };
+		315C0EB11D2E3DBE007C9AC3 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315C0EB01D2E3DBE007C9AC3 /* Photos.framework */; };
 		31648C281D2100E500B03BC8 /* resetPasswordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31648C271D2100E500B03BC8 /* resetPasswordsVC.swift */; };
 		31692DCA1D2B85C100676569 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DC51D2B85C100676569 /* UIImage+Crop.m */; };
 		31692DCB1D2B85C100676569 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 31692DC71D2B85C100676569 /* UIImage+Resize.m */; };
@@ -50,10 +52,12 @@
 
 /* Begin PBXFileReference section */
 		3108A7971D2A6DAE003AFAB8 /* mainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainVC.swift; sourceTree = "<group>"; };
+		311CA8741D2CE0750034331E /* Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
 		311E48AC1D25228800E353F6 /* Stage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Stage-Bridging-Header.h"; path = "../Stage/Stage-Bridging-Header.h"; sourceTree = "<group>"; };
 		311E48AD1D25228900E353F6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		311E48AE1D25228900E353F6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		311E48B61D253B9700E353F6 /* backTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = backTableVC.swift; path = ../backTableVC.swift; sourceTree = "<group>"; };
+		315C0EB01D2E3DBE007C9AC3 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		31648C271D2100E500B03BC8 /* resetPasswordsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resetPasswordsVC.swift; sourceTree = "<group>"; };
 		31692DC41D2B85C100676569 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
 		31692DC51D2B85C100676569 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
@@ -100,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315C0EB11D2E3DBE007C9AC3 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +199,7 @@
 		319BC5491D1C0F2A00A3C8C5 = {
 			isa = PBXGroup;
 			children = (
+				315C0EB01D2E3DBE007C9AC3 /* Photos.framework */,
 				319BC5541D1C0F2A00A3C8C5 /* Bridge */,
 				31692E101D2B91C200676569 /* Bridge */,
 				319BC5531D1C0F2A00A3C8C5 /* Products */,
@@ -218,6 +224,7 @@
 				319BC5691D1C11C500A3C8C5 /* EmptyProfile.png */,
 				319BC5671D1C11AA00A3C8C5 /* background.png */,
 				319BC5551D1C0F2A00A3C8C5 /* AppDelegate.swift */,
+				311CA8741D2CE0750034331E /* Drawing.swift */,
 				319BC5591D1C0F2A00A3C8C5 /* Main.storyboard */,
 				319BC55C1D1C0F2A00A3C8C5 /* Assets.xcassets */,
 				319BC55E1D1C0F2A00A3C8C5 /* LaunchScreen.storyboard */,
@@ -384,6 +391,7 @@
 				31BE16E51D1D472600E53CBC /* homeVC.swift in Sources */,
 				31C670CA1D2A877A00A8E8F6 /* FeedVC.swift in Sources */,
 				319BC5561D1C0F2A00A3C8C5 /* AppDelegate.swift in Sources */,
+				311CA8751D2CE0750034331E /* Drawing.swift in Sources */,
 				31692DCB1D2B85C100676569 /* UIImage+Resize.m in Sources */,
 				31692DD41D2B85EA00676569 /* HomeViewController.m in Sources */,
 				31AD6E651D2A4D5400B80DAA /* NotificationVC.swift in Sources */,
